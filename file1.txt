@@ -1,1 +1,4 @@
-fiel is created in feature1
+fileToKey(data) {
+    const { name, size, type } = data;
+    return 'test_' + name;
+}    is created in feature1
